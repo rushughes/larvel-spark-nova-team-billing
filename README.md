@@ -13,3 +13,5 @@ php artisan nova:install
 php artisan migrate
 
 php artisan nova:resource Team
+
+php artisan nova:resource Subscription
