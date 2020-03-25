@@ -60,6 +60,13 @@ class User extends Resource
                 ->onlyOnForms()
                 ->creationRules('required', 'string', 'min:8')
                 ->updateRules('nullable', 'string', 'min:8'),
+
+            Text::make('Billing Address'),
+            Text::make('Billing Address Line 2'),
+            Text::make('Billing City'),
+            Text::make('Billing Zip'),
+            Text::make('Billing Country'),
+
         ];
     }
 
